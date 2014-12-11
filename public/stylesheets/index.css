@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+#container{
+	width: auto;
+	
+	background-color: black;
+}
+#header{
+	width: auto;
+	height: 50px;
+	background-color: silver;
+	
+}
+#center{
+	width: auto;
+	height: auto;
+	background-color: white;
+}
+#left{
+	width: 200px;
+	height: 600px;
+	background-color: fuchsia;
+}
+#right{
+	background-color: gray;
+	height: auto;
+	width: 1045px;
+}
+
+#left , #right{
+	float: left;
+}
+#footer{
+	width: auto;
+	height: 100px;
+	background-color: blue;
+}
+.clear{
+	
+	clear: both;
+}
+#messagewindow{   
+    overflow:auto;
+    top:0;
+    bottom:3em;
+    padding-top: 20px;
+    color: white;
+}
+h2 {
+	text-align: center;
+	
+}
